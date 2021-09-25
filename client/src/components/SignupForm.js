@@ -33,15 +33,17 @@ const SignupForm = () => {
     // }
 
     try {
-      const response = await addUser(userFormData);
+      const { data } = await addUser({
+        variables: { ...userFormData },
+      });
 
-      if (!response.ok) {
-        throw new Error('something went wrong!');
-      }
+      // if (!data.ok) {
+      //   throw new Error('something went wrong!');
+      // }
       //Do i need these lines (??)
-      // const { user } = await response.json();
-      // console.log(user);
-      Auth.login(response.addUser.token);
+      //const { user , token } = await response.json();
+      //console.log(user);
+      Auth.login(data.addUser.token);
     } catch (err) {
       console.error(err);
       setShowAlert(true);
