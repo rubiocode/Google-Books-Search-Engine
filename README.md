@@ -90,19 +90,19 @@ You’ll need to complete the following tasks in each of these back-end files:
 
 * `server.js`: Implement the Apollo Server and apply it to the Express server as middleware. DONE 
 
-* `auth.js`: Update the auth middleware function to work with the GraphQL API.
+* `auth.js`: Update the auth middleware function to work with the GraphQL API. DONE
 
 	**Hint**: Refer to the class activities as a refresher on how to do this.
 
 * `Schemas` directory:
 
-	* `index.js`: Export your typeDefs and resolvers.
+	* `index.js`: Export your typeDefs and resolvers. DONE
 
-	* `resolvers.js`: Define the query and mutation functionality to work with the Mongoose models.
+	* `resolvers.js`: Define the query and mutation functionality to work with the Mongoose models. DONE
 
 		**Hint**: Use the functionality in the `user-controller.js` as a guide.
 
-	* `typeDefs.js`: Define the necessary `Query` and `Mutation` types:
+	* `typeDefs.js`: Define the necessary `Query` and `Mutation` types: DONE
 
 		* `Query` type:
 
