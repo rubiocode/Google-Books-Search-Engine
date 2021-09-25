@@ -12,7 +12,7 @@ import { useMutation } from '@apollo/react-hooks';
 const SearchBooks = () => {
 
   //adding save_book mutation to SearchBooks function 
-  const [saveBook] = useMutation(SAVE_BOOK);
+  const [saveBook, { error }] = useMutation(SAVE_BOOK);
   // create state for holding returned google api data
   const [searchedBooks, setSearchedBooks] = useState([]);
   // create state for holding our search field data
