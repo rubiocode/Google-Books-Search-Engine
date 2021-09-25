@@ -171,7 +171,7 @@ Additionally, you’ll need to complete the following tasks in each of these fro
 
 * `App.js`: Create an Apollo Provider to make every request work with the Apollo Server. DONE
 	
-* `SearchBooks.js`:
+* `SearchBooks.js`: DONE
 
 	* Use the Apollo `useMutation()` Hook to execute the `SAVE_BOOK` mutation in the `handleSaveBook()` function instead of the `saveBook()` function imported from the `API` file.
 
