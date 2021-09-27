@@ -24,7 +24,7 @@
 
 ## Description
 
-This _Google Book Search Engine_ is a MERN stack application that allows the user to search for a book and save book inquiries to user dashboard. This application was also built with Node, Express and MongoDB so that users can save books to review or purchase later.
+This _Google Book Search Engine_ is a MERN stack application that allows the user to search for a book and save/delete books to review or purchase later.
 
 ## User Story
 
@@ -77,7 +77,7 @@ This is what the application looks like:
 
 Landing Page: 
 
-<img src="" alt="Landing Page" style="height: 40rem ; width:40 rem;"/>
+<img src="./client/public/img/Landing.png" alt="Landing Page" style="height: 40rem ; width:40 rem;"/>
 
 
 ## Installation
