@@ -1,9 +1,9 @@
 <div align='center'>
 	<img src='https://krify.com/wp-content/uploads/2020/12/mern.png'>
 
-	URL of Heroku Deployed Application: 
+URL of Heroku Deployed Application: 
 
-	URL of GitHub Repository: https://github.com/rubiocode/Google-Books-Search-Engine
+URL of GitHub Repository: https://github.com/rubiocode/Google-Books-Search-Engine
 </div>
 
 <br>
