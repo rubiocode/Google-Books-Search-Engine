@@ -1,7 +1,7 @@
 <div align='center'>
 	<img src='https://krify.com/wp-content/uploads/2020/12/mern.png'>
 
-URL of Heroku Deployed Application: 
+URL of Heroku Deployed Application: https://morning-everglades-90602.herokuapp.com/
 
 URL of GitHub Repository: https://github.com/rubiocode/Google-Books-Search-Engine
 </div>
@@ -71,7 +71,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 
 ## View
-To view the Heroku deployed webpage click [here]().
+To view the Heroku deployed webpage click [here](https://morning-everglades-90602.herokuapp.com/).
 
 This is what the application looks like:
 
