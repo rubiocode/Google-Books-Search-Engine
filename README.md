@@ -24,7 +24,7 @@ URL of GitHub Repository: https://github.com/rubiocode/Google-Books-Search-Engin
 
 ## Description
 
-This _Google Book Search Engine_ is a MERN stack application that allows the user to search for a book and save/delete books to review or purchase later.
+This _Google Book Search Engine_ is a MERN stack application that allows the user to search for a book and save/delete books from the dashboard.
 
 ## User Story
 
@@ -88,6 +88,12 @@ To start using this _Google Book Search Engine_ you must follow these instructio
 * Open your terminal and make sure node.js is installed. To download node.js click [here](https://nodejs.org/en/download/)
 
 * Run command _npm i_ to install all the dependencies in this repository.
+
+* Once all the packages have been installed, CD into the SERVER level of the file structure and run
+
+	npm run develop
+
+Once you run the above command it will invoke frontend and backend server and the application will run on http://localhost:3000/ .  
 
 
 ## Build With
