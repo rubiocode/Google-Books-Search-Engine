@@ -10,7 +10,7 @@ import { REMOVE_BOOK } from '../utils/mutations';
 import { GET_USER } from '../utils/queries';
 
 const SavedBooks = () => {
-  const [removeBook, {error}] = useMutation(REMOVE_BOOK);
+  const [removeBook, { error }] = useMutation(REMOVE_BOOK);
 
   const { loading, data } = useQuery(GET_USER);
 
@@ -53,10 +53,12 @@ const SavedBooks = () => {
     }
 
     try {
-      const response = await removeBook(bookId, token);
+      const { data } = await removeBook({
+        variables: { bookId }
+      });
 
-      if (!response.ok) {
-        throw new Error('something went wrong!');
+      if (error) {
+        throw new Error('Something went wrong!');
       }
       
       // const updatedUser = await response.json();
